@@ -16,6 +16,7 @@
         "patch": 0
     },
     "instanceNameFormat": "Provision experiment - $(Action)",
+    "minimumAgentVersion": "2.144.0",
     "inputs": [
         {
             "name": "ServiceConnectionId",
@@ -63,6 +64,12 @@
     ],
     "execution": {
         "Node": {
+            "target": "main.js"
+        },
+        "Node10": {
+            "target": "main.js"
+        },
+        "Node16": {
             "target": "main.js"
         }
     },
