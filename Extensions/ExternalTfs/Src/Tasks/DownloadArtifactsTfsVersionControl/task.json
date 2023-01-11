@@ -16,7 +16,7 @@
     "Patch": 0
   },
   "demands": [],
-  "minimumAgentVersion": "1.99.0",  
+  "minimumAgentVersion": "2.144.0",  
   "inputs": [
     {
       "name": "connection",
@@ -95,6 +95,14 @@
   "instanceNameFormat": "Download Artifacts - External TFS Version Control",
   "execution": {
     "Node": {
+      "target": "downloadTfsVersionControl.js",
+      "argumentFormat": ""
+    },
+    "Node10": {
+      "target": "downloadTfsVersionControl.js",
+      "argumentFormat": ""
+    },
+    "Node16": {
       "target": "downloadTfsVersionControl.js",
       "argumentFormat": ""
     }
