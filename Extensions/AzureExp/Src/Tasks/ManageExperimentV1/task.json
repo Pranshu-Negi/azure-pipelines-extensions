@@ -15,7 +15,7 @@
         "Minor": 0,
         "Patch": 0
     },
-    "minimumAgentVersion": "1.95.0",
+    "minimumAgentVersion": "2.144.0",
     "instanceNameFormat": "$(Action) Experiment",
     "inputs": [
         {
@@ -62,6 +62,12 @@
     ],
     "execution": {
         "Node": {
+            "target": "main.js"
+        },
+        "Node10": {
+            "target": "main.js"
+        },
+        "Node16": {
             "target": "main.js"
         }
     },

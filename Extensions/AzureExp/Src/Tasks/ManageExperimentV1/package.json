@@ -6,10 +6,11 @@
   "author": "Microsoft Corporation",
   "license": "MIT",
   "dependencies": {
-    "azure-pipelines-task-lib": "^3.2.1",
+    "azure-pipelines-task-lib": "^4.1.0",
     "typed-rest-client": "^1.8.6"
   },
   "devDependencies": {
-    "@types/node": "^12.12.14"
+    "@types/node": "^16.11.39",
+    "typescript": "4.0.2"
   }
 }
