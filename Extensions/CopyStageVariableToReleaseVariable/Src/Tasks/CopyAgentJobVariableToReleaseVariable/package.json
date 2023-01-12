@@ -5,7 +5,10 @@
   "author": "Microsoft",
   "license": "MIT",
   "dependencies": {
-    "azure-devops-node-api": "11.1.1",
-    "azure-pipelines-task-lib": "3.3.1"
+    "azure-devops-node-api": "11.2.0",
+    "azure-pipelines-task-lib": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "4.0.2"
   }
 }

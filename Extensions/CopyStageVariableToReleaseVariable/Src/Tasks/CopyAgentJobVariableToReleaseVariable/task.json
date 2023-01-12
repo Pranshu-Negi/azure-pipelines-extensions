@@ -18,6 +18,7 @@
         "Patch": 0
     },
     "instanceNameFormat": "Create a release variable ",
+    "minimumAgentVersion": "2.144.0",
     "inputs": [
         {
             "name": "stageVariableNames",
@@ -44,6 +45,14 @@
             ]
         },
         "Node": {
+            "target": "copyvartorelease.js",
+            "argumentFormat": ""
+        },
+        "Node10": {
+            "target": "copyvartorelease.js",
+            "argumentFormat": ""
+        },
+        "Node16": {
             "target": "copyvartorelease.js",
             "argumentFormat": ""
         }
