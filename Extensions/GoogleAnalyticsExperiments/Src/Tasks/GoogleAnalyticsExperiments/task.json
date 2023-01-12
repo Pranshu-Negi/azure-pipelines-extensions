@@ -16,7 +16,7 @@
         "Patch": "1"
     },
     "preview": "true",
-    "minimumAgentVersion": "1.95.0",
+    "minimumAgentVersion": "2.144.0",
     "instanceNameFormat": "Google Analytics Experiments: $(action)",
     "inputs": [
         {
@@ -130,6 +130,12 @@
     ],
     "execution": {
         "Node": {
+            "target": "index.js"
+        },
+        "Node10": {
+            "target": "index.js"
+        },
+        "Node16": {
             "target": "index.js"
         }
     },
