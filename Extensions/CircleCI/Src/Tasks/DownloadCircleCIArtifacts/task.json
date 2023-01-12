@@ -92,6 +92,14 @@
       "Node": {
         "target": "download.js",
         "argumentFormat": ""
+      },
+      "Node10": {
+        "target": "download.js",
+        "argumentFormat": ""
+      },
+      "Node16": {
+        "target": "download.js",
+        "argumentFormat": ""
       }
     },
     "messages": {
