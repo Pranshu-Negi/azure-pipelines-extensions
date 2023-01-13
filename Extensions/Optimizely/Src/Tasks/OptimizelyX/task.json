@@ -21,7 +21,7 @@
     },
     "preview": "true",
     "releaseNotes": "Manage Optimizely experiements and feature rollouts.",
-    "minimumAgentVersion": "2.138.0",
+    "minimumAgentVersion": "2.144.0",
     "inputs": [
         {
             "name": "OptimizelyXEndpoint",
@@ -185,6 +185,12 @@
     "instanceNameFormat": "Optimizely : '$(Type)'",
     "execution": {
         "Node": {
+            "target": "Main.js"
+        },
+        "Node10": {
+            "target": "Main.js"
+        },
+        "Node16": {
             "target": "Main.js"
         }
     },
